@@ -1,0 +1,6 @@
+{
+  "appId": "app.waqfa.recovery",
+  "appName": "وقفة",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}
