@@ -2,5 +2,13 @@
   "appId": "app.waqfa.recovery",
   "appName": "وقفة",
   "webDir": "www",
-  "server": { "androidScheme": "https" }
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_mosque",
+      "iconColor": "#C4502B"
+    }
+  }
 }
