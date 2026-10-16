@@ -17,6 +17,7 @@ jobs:
           distribution: temurin
           java-version: 17
       - run: mkdir -p www && cp index.html www/index.html
+      - run: curl -fL --retry 3 https://api.alquran.cloud/v1/quran/quran-uthmani -o quran-raw.json
       - run: npm install
       - run: npx cap add android
       - run: node patch-android.js
